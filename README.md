@@ -47,7 +47,7 @@ $$minted = \sqrt{token1 \times token2} - MINIMUM LIQUIDITY$$
 Investigate the minting function in the UniswapV2Pair contract. When depositing tokens (not for the first time), liquidity can only be obtained using a specific formula. What is the intention behind this?
 
 > Solution
-> LP tokens minted= $\frac{Reserve Of Token A}{Deposit Amount Of Token A}\times(TotalSupplyOfLPTokens)$
+> LP tokens minted= $\frac{Reserve Of Token A}{Deposit Amount Of Token A}\times(TotalSupplyOfLPTokens)$\
 ​
 I think this serves 2 very important purposes.
 >1. It ensures that the share of LP tokens received is directly proportional to the amount of liquidity a provider adds relative to the existing liquidity in the pool.
