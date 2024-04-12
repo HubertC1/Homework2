@@ -41,7 +41,7 @@ Please examine the mint function in the UniswapV2Pair contract. Upon initial liq
 
 > Solution
 > We want to insure that there will always be some liquidity of a token in the pool. This is because the price of our tokens rely heavily on the constant product formula. If the liqudity drops to zero, then there will be a major error in pricing the tokens. Thus, we have the following formula:
-$$minted = \sqrt{token1 \times token2} - MINIMUM\_ LIQUIDITY$$
+$$minted = \sqrt{token1 \times token2} - MINIMUM LIQUIDITY$$
 
 ## Problem 4
 Investigate the minting function in the UniswapV2Pair contract. When depositing tokens (not for the first time), liquidity can only be obtained using a specific formula. What is the intention behind this?
