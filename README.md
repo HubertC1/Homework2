@@ -7,7 +7,7 @@ Provide your profitable path, the amountIn, amountOut value for each swap, and y
 
 > Solution
 > 
-Swap(B,A) amountIn:4.151608877446016 amountOut:4.987231595204996
+>Swap(B,A) amountIn:4.151608877446016 amountOut:4.987231595204996
 Swap(A,E) amountIn:4.987231595204996 amountOut:0.9595542289555015
 Swap(E,D) amountIn:0.9595542289555015 amountOut:2.2178059464947353
 Swap(D,C) amountIn:2.2178059464947353 amountOut:4.679637536566986
